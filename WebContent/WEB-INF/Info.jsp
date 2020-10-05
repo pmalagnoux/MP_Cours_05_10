@@ -19,5 +19,8 @@
 	ans.</br>
 	Contenu du cours d'info
 	</a>
+	<!-- Utilisation des Expression Language (EL) -->
+	<p>Bonjour ${!empty name ? name :"La valeur n'est pas renseignée!!"} Vous avez ${!empty age ? age :"La valeur n'est pas renseignée!!"} ans.</p>
+	${tab[1]}, ${tab[2]}
 </body>
 </html>

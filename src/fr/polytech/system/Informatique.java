@@ -32,7 +32,11 @@ public class Informatique extends HttpServlet {
         request.setAttribute("name", name);
         String age = request.getParameter("age");
         request.setAttribute("age", age);
-		this.getServletContext().getRequestDispatcher("/WEB-INF/Info.jsp").forward(request, response);
+		String[] tab = {"tetr","eljr", "fjkohj"};
+		request.setAttribute("tab", tab);
+        
+        
+        this.getServletContext().getRequestDispatcher("/WEB-INF/Info.jsp").forward(request, response);
 		
 	
 	}

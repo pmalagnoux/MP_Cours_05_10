@@ -17,13 +17,14 @@
 	out.println(age);
 	%>
 	ans.</br>
-	</a>
+	</a> 
+	${!empty name ? name : "La valeur n'est pas renseignée!!" }
+	<p>
 	
-	<a>
 	lokhjrh
 	ejeljke
 	eklmjrljr
 	rlkhjrlkjr
-	</a>
+	</p>
 </body>
 </html>
